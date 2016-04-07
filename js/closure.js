@@ -18,12 +18,12 @@
         return {
             getVal : function() {
                 return value;
-            }, add : function(val2) {
+            }, add : function add(val2) {
                 if ( val2 === undefined ) {
                     return getVal();
                 }
                 value += val2;
-                return value;
+                return add;
             }
         }
 }
