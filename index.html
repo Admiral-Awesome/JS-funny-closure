@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <title> Some Closure example </title>
+    <meta name="Admiral_Awesome" content="Closure JS" />
+    <script type="text/javascript" src="js/closure.js"></script>
+    
+
+</head>
+
+<body>
+    <script type="text/javascript">
+
+    var sum1 = sum(2)(3)(5)();
+
+    console.log(sum1);
+
+    var sum2 = sum2(2);
+
+    console.log(sum2.getVal());
+    sum2.add(2);
+    console.log(sum2.getVal());
+    sum2.add(5);
+    console.log(sum2.getVal());
+    
+    </script>
+</body>
+
+</html>
